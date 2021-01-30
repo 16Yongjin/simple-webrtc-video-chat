@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Hall
+  body
+    a(href='/new') new room
+    hr
+    h3 rooms
+    ul
+      for room in rooms
+        a(href=room)
+          li= room
