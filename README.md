@@ -5,16 +5,20 @@
 
 ## 실행
 
-서버 실행 (3000번 포트)
+1. 서버 실행 (3000번 포트)
 
 ```
 yarn start
 ```
 
-PeerJS 서버 실행 (3001번 포트)
+2. PeerJS 서버 실행 (3001번 포트)
 
 ```
 npx peer --port=3001
 ```
 
-localhost:3000 접속
+3. localhost:3000 접속
+
+## 참고
+
+[How To Create A Video Chat App With WebRTC](https://www.youtube.com/watch?v=DvlyzDZDEq4)
